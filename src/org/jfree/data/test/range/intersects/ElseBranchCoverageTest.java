@@ -26,7 +26,7 @@ private Range r;
 	 * Assumptions: N/A
 	 */
 	@Test
-	public void intersects_IfBranch_Test() {
+	public void intersects_ElseBranch_Test() {
 		assertFalse("Testing \"else\" branch of intersects. Expect false.", r.intersects(10, 15) );
 	}
 
