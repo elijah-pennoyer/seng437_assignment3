@@ -38,7 +38,7 @@ public class ElseBranchCoverageTest {
 		return Arrays.asList(new Object[][]
 		{
 			{0, 4, true},
-			{7, 5, false},
+			{3, 1, false},
 			{7, 10, false},
 			{10, 9, false}
 		});
